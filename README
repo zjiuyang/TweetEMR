@@ -1,0 +1,29 @@
+3nd Assignment
+==========
+Weiqi An (wa2198)  
+Jiuyang Zhao (jz2538)
+
+Our code includes 2 part2
+
+part1:
+==========
+    We do sentiment and word count to every tweets, and finnaly get top 10 words
+in both happy tweets and sad tweets. Then we generate a word cloud (with 3rd
+party tools) 
+
+part2:
+==========
+    We do sentiment to every tweet and partition them by time. Then we generate
+the 'happy_rate' in different time period and draw a barchart to show it.
+
+
+MapReduce
+==========
+    All of our code are in python. They are runnable in hadoop(EMR) in
+streamming job. Both part1 and part2 include the mapper.py and reduce.py
+
+Data Source and Topic
+==========
+    We used the data from Assignment 1 and 2 in our DynamoDB. We download the
+data and store them in json format as input. 
+    Our Topic is 'game'
