@@ -27,3 +27,8 @@ Data Source and Topic
     We used the data from Assignment 1 and 2 in our DynamoDB. We download the
 data and store them in json format as input. 
     Our Topic is 'game'
+
+Acknowledgement
+==========
+    We used the sentiment from http://alexdavies.net/twitter-sentiment-analysis/
+This is not very accurate and the happy rate is very high.
